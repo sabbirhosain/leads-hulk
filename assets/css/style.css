@@ -1,0 +1,218 @@
+/* Header Section Start */
+
+.navbar_brand_logo {
+    max-width: 55%;
+}
+
+.navbar-toggler {
+    border: 1px solid var(--primary-color);
+    border-radius: 0px;
+}
+
+.navbar_toggler_icon {
+    color: var(--primary-color);
+}
+
+.dropdown-menu {
+    background-color: white;
+    border-top: 3px solid var(--primary-color);
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+}
+
+.dropdown-divider {
+    padding: 0;
+    margin: 0;
+    background-color: var(--primary-color);
+}
+
+.nav-link,
+.dropdown-item {
+    color: white;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-family: var(--primary-fontFamily);
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        color: var(--primary-color);
+    }
+
+    &:focus {
+        color: var(--primary-color);
+    }
+}
+
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 0px;
+    vertical-align: 3px;
+    content: "";
+    border-top: .2em solid;
+    border-right: .2em solid transparent;
+    border-bottom: 0;
+    border-left: .2em solid transparent;
+}
+
+.nav_get_free_btn {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    padding: 3px 10px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-family: var(--primary-fontFamily);
+    transition: all 0.4s ease-in-out;
+
+    &:hover {
+        color: white;
+        background-color: var(--primary-color);
+
+    }
+}
+
+/* Hero Section Start */
+
+.hero_section {
+    width: 100%;
+    height: 80vh;
+    background-image: url('../images/hero_section_image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero_section_text h1 {
+    color: white;
+    font-size: 80px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 0.9;
+    text-transform: capitalize;
+    font-family: var(--primary-fontFamily);
+}
+
+.hero_section_text h1 span {
+    color: var(--primary-color);
+}
+
+.hero_section_text p {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 1.2;
+    text-transform: capitalize;
+    padding: 5px 0 20px 0;
+    font-family: var(--secondery-fontFamily);
+}
+
+.hero_section_btn {
+    color: white;
+    background-color: var(--primary-color);
+    border: 1px solid white;
+    padding: 5px 15px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: var(--primary-fontFamily);
+    transition: all 0.4s ease-in-out;
+
+    &:hover {
+        color: var(--primary-color);
+        background-color: white;
+        border: 1px solid var(--primary-color);
+    }
+}
+
+/* Experience Counts Start */
+.experience_counts {
+    padding: 20px 0px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin-top: -65px;
+}
+
+.experience_counts_item {
+    text-align: center;
+}
+
+.experience_counts_item .experience_counts_icon i {
+    font-size: 40px;
+    color: var(--primary-color);
+}
+
+.experience_counts_text {
+    padding-top: 10px;
+}
+
+.experience_counts_text h3 {
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: var(--primary-fontFamily);
+}
+
+.experience_counts_text p {
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: var(--secondery-fontFamily);
+}
+
+/* About Our Company */
+.about_our_company {
+    padding: 50px 0;
+}
+
+.about_company_video iframe {
+    width: 100%;
+    height: 300px;
+}
+
+.about_company_text h2 {
+    color: var(--primary-color);
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: var(--primary-fontFamily);
+}
+
+.about_company_text p {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    text-align: justify;
+    font-style: italic;
+    word-spacing: -3px;
+    padding: 5px 0 15px 0;
+    font-family: var(--secondery-fontFamily);
+}
+
+.about_company_btn {
+    color: white;
+    display: inline-block;
+    background-color: var(--primary-color);
+    border: 1px solid white;
+    padding: 5px 15px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: var(--primary-fontFamily);
+    transition: all 0.4s ease-in-out;
+
+    &:hover {
+        color: var(--primary-color);
+        background-color: white;
+        border: 1px solid var(--primary-color);
+    }
+}

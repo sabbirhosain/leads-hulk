@@ -1,0 +1,57 @@
+:root {
+    --primary-fontFamily: "Smooch Sans", serif;
+    --secondery-fontFamily: "Montserrat", serif;
+    --primary-color: #38b6ff;
+    --secondery-color: "";
+    --primary-heading-fontSize: "";
+    --secondery-heading-fontSize: "";
+    --paragraph-fontSize: "";
+}
+
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+button,
+input,
+select {
+    border: none;
+    border-radius: 0px;
+    outline: none;
+    background-color: transparent;
+
+    &:focus {
+        box-shadow: none !important;
+    }
+}
