@@ -170,7 +170,7 @@
 
 /* About Our Company */
 .about_our_company {
-    padding: 50px 0;
+    padding: 60px 0;
 }
 
 .about_company_video iframe {
@@ -320,5 +320,43 @@
         background-color: white;
         border: 1px solid var(--primary-color);
     }
+}
 
+/* Industries Section Start */
+.our_industries_section {
+    padding: 50px 0;
+}
+
+.our_industries_item {
+    border-radius: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.list-group .list-group-item {
+    color: gray;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--secondery-fontFamily);
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.our_industries_item_btn {
+    color: white;
+    display: block;
+    background-color: var(--primary-color);
+    border: 1px solid white;
+    padding: 5px 15px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: var(--primary-fontFamily);
+    transition: all 0.4s ease-in-out;
+
+    &:hover {
+        color: var(--primary-color);
+        background-color: white;
+        border: 1px solid var(--primary-color);
+    }
 }
