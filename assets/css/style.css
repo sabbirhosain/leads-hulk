@@ -360,3 +360,67 @@
         border: 1px solid var(--primary-color);
     }
 }
+
+/* Our Experience Section Start */
+.our_experience_section {
+    padding: 30px 0px;
+    background-color: var(--primary-color);
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.our_experience_counts_item {
+    text-align: center;
+}
+
+.our_experience_counts_item .our_experience_counts_icon i {
+    font-size: 40px;
+    color: white;
+}
+
+.our_experience_counts_text {
+    padding-top: 10px;
+}
+
+.our_experience_counts_text h3 {
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: var(--primary-fontFamily);
+}
+
+.our_experience_counts_text p {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: var(--secondery-fontFamily);
+}
+
+/* Our Company Overview */
+.our_company_overview {
+    padding: 50px 0;
+    background-color: #F5F5F5;
+}
+
+.our_company_overview h2 {
+    color: var(--primary-color);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 1px;
+    font-family: var(--primary-fontFamily);
+}
+
+.our_company_overview p {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    text-align: justify;
+    font-style: italic;
+    word-spacing: -3px;
+    padding: 10px 0 15px 0;
+    font-family: var(--secondery-fontFamily);
+}

@@ -1,7 +1,8 @@
 :root {
     --primary-fontFamily: "Smooch Sans", serif;
     --secondery-fontFamily: "Montserrat", serif;
-    --primary-color: #38b6ff;
+    /* --primary-color: #38b6ff; */
+    --primary-color: blue;
     --secondery-color: "";
     --primary-heading-fontSize: "";
     --secondery-heading-fontSize: "";
