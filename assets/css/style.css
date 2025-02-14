@@ -1,4 +1,7 @@
 /* Header Section Start */
+.navbar {
+    background-color: var(--primary-bg-color);
+}
 
 .navbar_brand_logo {
     max-width: 55%;
@@ -364,7 +367,7 @@
 /* Our Experience Section Start */
 .our_experience_section {
     padding: 30px 0px;
-    background-color: var(--primary-color);
+    background-color: var(--primary-bg-color);
     margin-top: 30px;
     margin-bottom: 50px;
 }
@@ -375,7 +378,7 @@
 
 .our_experience_counts_item .our_experience_counts_icon i {
     font-size: 40px;
-    color: white;
+    color: var(--primary-color);
 }
 
 .our_experience_counts_text {
@@ -422,5 +425,90 @@
     font-style: italic;
     word-spacing: -3px;
     padding: 10px 0 15px 0;
+    font-family: var(--secondery-fontFamily);
+}
+
+/* Footer Top Section Start */
+
+.footer_top_section {
+    padding: 30px 0;
+    background-color: var(--primary-bg-color);
+}
+
+.footer_top_section_content {
+    text-align: center;
+}
+
+.footer_top_section_content img {
+    max-width: 25%;
+    height: auto;
+}
+
+.footer_top_section_content h4 {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-style: italic;
+    line-height: 1;
+    font-family: var(--primary-fontFamily);
+    padding-top: 15px;
+}
+
+.footer_top_section_content h4 span {
+    color: var(--primary-color);
+}
+
+.footer_top_section_content p {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-style: italic;
+    font-family: var(--secondery-fontFamily);
+    padding-bottom: 15px;
+}
+
+.footer_top_social_icon,
+.footer_contact_icon_box {
+    width: 30px;
+    height: 30px;
+    color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    transform: rotate(45deg);
+}
+
+.footer_top_social_icon i,
+.footer_contact_icon_box i {
+    transform: rotate(-45deg);
+}
+
+.footer_contact_title {
+    color: var(--primary-color);
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-family: var(--primary-fontFamily);
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+
+.footer_contact_peragraph_1 {
+    color: white;
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 1.5px;
+    font-style: italic;
+    font-family: var(--secondery-fontFamily);
+}
+.footer_contact_peragraph_2 {
+    color: white;
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 1.5px;
+    font-style: italic;
     font-family: var(--secondery-fontFamily);
 }

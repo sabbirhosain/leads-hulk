@@ -1,9 +1,10 @@
 :root {
     --primary-fontFamily: "Smooch Sans", serif;
     --secondery-fontFamily: "Montserrat", serif;
-    /* --primary-color: #38b6ff; */
-    --primary-color: blue;
+    /* --primary-color: #0E46A3; */
+    --primary-color: #FF6500;
     --secondery-color: "";
+    --primary-bg-color: #09122C;
     --primary-heading-fontSize: "";
     --secondery-heading-fontSize: "";
     --paragraph-fontSize: "";
