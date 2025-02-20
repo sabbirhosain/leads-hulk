@@ -504,6 +504,7 @@
     font-style: italic;
     font-family: var(--secondery-fontFamily);
 }
+
 .footer_contact_peragraph_2 {
     color: white;
     font-size: 16px;
@@ -511,4 +512,22 @@
     letter-spacing: 1.5px;
     font-style: italic;
     font-family: var(--secondery-fontFamily);
+}
+
+/* Footer Copyright Section start */
+.footer_copyright_section {
+    padding: 20px 0;
+    background-color: white;
+}
+.footer_copyright{
+    color: var(--primary-bg-color);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: 1px;
+    font-style: italic;
+    font-family: var(--primary-fontFamily);
+}
+.footer_copyright a{
+    color: var(--primary-color);
 }
