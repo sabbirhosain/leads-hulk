@@ -1,0 +1,58 @@
+/* Frequently Asked Questions Start */
+.prequently_ask_question {
+    padding: 50px 0;
+    background-color: #F5F5F5;
+}
+
+.accordion-button {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: var(--primary-fontFamily);
+}
+
+.accordion-button:not(.collapsed) {
+    color: white;
+    background-color: var(--primary-color);
+}
+
+.accordion-body p {
+    font-weight: 300;
+    font-style: italic;
+    font-family: var(--secondery-fontFamily);
+}
+
+/* communicate directly */
+.communicate_directly {
+    padding: 30px 0;
+    background-color: var(--primary-bg-color);
+}
+
+.communicate_directly_title {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: var(--primary-fontFamily);
+}
+
+.communicate_directly_btn_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 10px 0;
+    background-color: white;
+}
+
+.communicate_directly_btn_box i {
+    color: var(--primary-color);
+}
+
+.communicate_directly_btn_box a {
+    color: var(--primary-color);
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: var(--secondery-fontFamily);
+}
