@@ -1,0 +1,124 @@
+/* About Our Team */
+.about_our_team {
+    padding: 50px 0;
+}
+
+.about_our_team_text h2 {
+    color: var(--primary-color);
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: var(--primary-fontFamily);
+}
+
+.about_our_team_text p {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    text-align: justify;
+    font-style: italic;
+    word-spacing: -3px;
+    padding: 5px 0 15px 0;
+    font-family: var(--secondery-fontFamily);
+}
+
+/* Our Team Members */
+.nav-tabs>.nav-link {
+    color: var(--primary-color);
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-family: var(--primary-fontFamily);
+    border-radius: 0px;
+    padding: 5px 10px;
+
+    &:focus {
+        color: white;
+        background-color: var(--primary-color);
+    }
+}
+
+.team_card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 0px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.team_card img {
+    width: 100%;
+    max-height: 250px;
+    border-radius: 0px;
+    object-fit: fill;
+    display: block;
+    transition: transform 0.3s ease-in-out;
+}
+
+.team_card:hover img {
+    cursor: pointer;
+    filter: brightness(60%);
+}
+
+.team_card .social-icons-overlay {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 20px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.team_card:hover .social-icons-overlay {
+    opacity: 1;
+}
+
+.our_team_members_social_icon {
+    color: white;
+    width: 30px;
+    height: 30px;
+    color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(45deg);
+    border: 1px solid var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        color: white;
+        background-color: var(--primary-color);
+    }
+}
+
+.our_team_members_social_icon i {
+    transform: rotate(-45deg);
+}
+
+.team_card .card-body .card-title {
+    color: var(--primary-color);
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 0;
+    margin: 0;
+    font-family: var(--primary-fontFamily);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.team_card .card-body .card-text {
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    font-style: italic;
+    text-align: center;
+    font-family: var(--secondery-fontFamily);
+}

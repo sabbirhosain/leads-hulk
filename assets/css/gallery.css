@@ -1,0 +1,29 @@
+/* Our Office Room */
+.our_office_room {
+    padding-top: 50px;
+}
+
+.our_office_room_text h2 {
+    color: var(--primary-color);
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: var(--primary-fontFamily);
+}
+
+.our_office_room_text p {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    text-align: justify;
+    font-style: italic;
+    word-spacing: -3px;
+    padding: 5px 0 15px 0;
+    font-family: var(--secondery-fontFamily);
+}
+
+/* Gallery Section Start */
+.gallery_image_section {
+    padding: 50px 0;
+}
