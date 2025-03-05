@@ -235,34 +235,13 @@
 
 .section_name h2 {
     color: var(--primary-color);
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 700;
-    letter-spacing: 1px;
+    letter-spacing: 5px;
     font-family: var(--primary-fontFamily);
     text-transform: uppercase;
 }
 
-.section_name .section_name_title:before {
-    content: "";
-    position: absolute;
-    height: 10px;
-    border-top: 2px solid var(--primary-color);
-    border-bottom: 2px solid var(--primary-color);
-    top: 15%;
-    width: 10%;
-    right: 59%;
-}
-
-.section_name .section_name_title:after {
-    content: "";
-    position: absolute;
-    height: 10px;
-    border-top: 2px solid var(--primary-color);
-    border-bottom: 2px solid var(--primary-color);
-    top: 15%;
-    width: 10%;
-    left: 59%;
-}
 
 .our_service_item {
     border-radius: none;

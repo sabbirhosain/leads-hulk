@@ -1,34 +1,67 @@
 .client_testimonials {
     padding: 50px 0;
+    background-color: #F5F5F5;
+}
+
+.client_testimonials_title {
+    color: var(--primary-color);
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: var(--primary-fontFamily);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.client_testimonials_paragraph {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    text-align: justify;
+    font-style: italic;
+    word-spacing: -3px;
+    padding: 5px 0 15px 0;
+    font-family: var(--secondery-fontFamily);
+    text-align: center;
 }
 
 .client_testimonials_card {
     border-radius: 0px;
-    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    box-shadow: var(--primary-color) 0px 1px 3px 0px, var(--primary-color) 0px 0px 0px 0.1px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
 
 .client_testimonials_img_box {
-    max-width: 70px;
-    max-height: 70px;
+    max-width: 60px;
+    max-height: 60px;
     border: 2px solid var(--primary-color);
     overflow: hidden;
+    border-radius: 50%;
 }
 
 .client_testimonials_img_box img {
-    max-width: 70px;
-    max-height: 70px;
+    max-width: 60px;
+    max-height: 60px;
     object-fit: fill;
 }
 
 .client_testimonials_card>.card-body>.card-text {
     color: black;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 300;
     letter-spacing: 1.5px;
     font-style: italic;
     text-align: left;
     font-family: var(--secondery-fontFamily);
-    padding-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--primary-color);
+}
+
+.client_testimonials_card>.card-body>.card-text i {
+    color: var(--primary-color);
+    font-size: 12px;
 }
 
 .client_testimonials_text h6 {
@@ -43,22 +76,28 @@
 
 .client_testimonials_text h6 {
     color: var(--primary-color);
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 600;
     letter-spacing: 1px;
     font-family: var(--primary-fontFamily);
     text-transform: capitalize;
+    line-height: 10px;
 }
 
 .client_testimonials_text span {
     color: black;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 300;
     letter-spacing: 1.5px;
     font-style: italic;
     font-family: var(--secondery-fontFamily);
 }
 
+.client_testimonials_text div {
+    margin: -7px 0;
+}
+
 .client_testimonials_text i {
-    color: gold;
+    color: orange;
+    font-size: 12px;
 }
