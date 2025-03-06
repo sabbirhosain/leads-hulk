@@ -3,6 +3,29 @@
     background-color: #F5F5F5;
 }
 
+.our_services_title {
+    color: var(--primary-color);
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: var(--primary-fontFamily);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.our_services_peragraph {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    text-align: justify;
+    font-style: italic;
+    word-spacing: -3px;
+    padding: 5px 0 15px 0;
+    font-family: var(--secondery-fontFamily);
+    text-align: center;
+}
+
 .services_card {
     border-radius: 0px;
     box-shadow: var(--primary-color) 0px 1px 3px 0px, var(--primary-color) 0px 0px 0px 0.1px;

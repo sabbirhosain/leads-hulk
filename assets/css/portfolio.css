@@ -1,0 +1,97 @@
+.our_portfolio_section {
+    padding: 50px 0;
+}
+
+.our_portfolio_text h2 {
+    color: var(--primary-color);
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: var(--primary-fontFamily);
+}
+
+.our_portfolio_text p {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    text-align: justify;
+    font-style: italic;
+    word-spacing: -3px;
+    padding: 5px 0 15px 0;
+    font-family: var(--secondery-fontFamily);
+}
+
+/* Our Portfolio Section */
+.our_portfolio_gallary {
+    padding: 50px 0;
+    background-color: #F5F5F5;
+}
+
+.our_portfolio_image_box {
+    position: relative;
+}
+
+.our_portfolio_image {
+    width: 100%;
+}
+
+.our_portfolio_image_box a {
+    color: var(--primary-color);
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    text-align: justify;
+    word-spacing: -3px;
+    padding: 5px 0 15px 0;
+    font-family: var(--secondery-fontFamily);
+    text-align: left;
+    display: block;
+    padding-top: 10px;
+}
+
+
+/* Company Brand Section Start */
+.company_brand_section {
+    padding: 50px 0;
+}
+
+.company_brand_title {
+    color: var(--primary-color);
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: var(--primary-fontFamily);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.company_brand_peragraph {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    text-align: justify;
+    font-style: italic;
+    word-spacing: -3px;
+    padding: 5px 0 15px 0;
+    font-family: var(--secondery-fontFamily);
+    text-align: center;
+}
+
+.company_brand_image_box {
+    position: relative;
+    overflow: hidden;
+}
+
+.comapny_brand_image {
+    width: 100%;
+    filter: grayscale(100%);
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.comapny_brand_image:hover {
+    filter: grayscale(0%);
+    transform: scale(0.9);
+}
