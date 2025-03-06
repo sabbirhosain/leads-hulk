@@ -1,0 +1,93 @@
+.our_services_section {
+    padding: 50px 0;
+    background-color: #F5F5F5;
+}
+
+.services_card {
+    border-radius: 0px;
+    box-shadow: var(--primary-color) 0px 1px 3px 0px, var(--primary-color) 0px 0px 0px 0.1px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.service_card_icon_box {
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--primary-color);
+    transition: all 0.3s ease-in-out;
+}
+
+.service_card_icon_box i {
+    font-size: 20px;
+}
+
+.services_card:hover .service_card_icon_box {
+    color: white;
+    background-color: var(--primary-color);
+}
+
+.services_card h5 {
+    color: var(--primary-color);
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-family: var(--primary-fontFamily);
+    text-transform: capitalize;
+    line-height: 0px;
+    padding: 30px 0px 20px 0;
+    display: block;
+}
+
+.services_card p {
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    text-align: left;
+    font-family: var(--secondery-fontFamily);
+}
+
+.service_card_btn_1 {
+    color: var(--primary-color);
+    display: block;
+    width: 100%;
+    border: 1px solid var(--primary-color);
+    padding: 5px 15px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: var(--primary-fontFamily);
+    transition: all 0.4s ease-in-out;
+
+    &:hover {
+        color: white;
+        background-color: var(--primary-color);
+    }
+}
+
+.service_card_btn_2 {
+    color: white;
+    display: block;
+    width: 100%;
+    background-color: var(--primary-color);
+    border: 1px solid white;
+    padding: 5px 15px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: var(--primary-fontFamily);
+    transition: all 0.4s ease-in-out;
+
+    &:hover {
+        color: var(--primary-color);
+        background-color: white;
+        border: 1px solid var(--primary-color);
+    }
+}
