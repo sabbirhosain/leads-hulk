@@ -1,0 +1,90 @@
+.blogs_details_section {
+    padding: 50px 0;
+}
+
+.blogs_details_contant a {
+    color: var(--primary-color);
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 1;
+    display: block;
+    padding: 15px 0 5px 0;
+    font-family: var(--primary-fontFamily);
+}
+
+.blogs_details_contant small {
+    color: var(--primary-color);
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    text-align: right;
+    font-style: italic;
+    word-spacing: -3px;
+    padding: 5px 10px;
+    display: block;
+    font-family: var(--secondery-fontFamily);
+    background-color: #F5F5F5;
+}
+
+.blogs_details_contant p {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    text-align: justify;
+    font-style: italic;
+    word-spacing: -3px;
+    padding: 5px 0 15px 0;
+    font-family: var(--secondery-fontFamily);
+}
+
+.blogs_details_post h5 {
+    color: var(--primary-color);
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1;
+    display: block;
+    padding: 15px 0 5px 0;
+    font-family: var(--primary-fontFamily);
+}
+
+.blogs_details_post ul li a {
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    word-spacing: -3px;
+    padding: 10px 0;
+    display: block;
+    font-family: var(--secondery-fontFamily);
+}
+
+.blogs_details_tagline h5 {
+    color: var(--primary-color);
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1;
+    display: block;
+    padding: 15px 0 5px 0;
+    font-family: var(--primary-fontFamily);
+}
+
+.blogs_details_tagline a {
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    word-spacing: -3px;
+    font-family: var(--secondery-fontFamily);
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        color: var(--primary-color);
+    }
+}
